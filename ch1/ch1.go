@@ -45,4 +45,22 @@ func main() {
 	}
 	defer outGif2.Close()
 	lissajous2(outGif2)
+
+	fmt.Println("############## ex 1.7 ##############")
+	fetch()
+
+	fmt.Println("############## ex 1.8 ##############")
+	autoPrefix()
+
+	fmt.Println("############## ex 1.9 ##############")
+	fetchWithStatusCode()
+
+	fmt.Println("############## ex 1.10 ##############")
+	fetchAll()
+
+	fmt.Println("############## ex 1.11 ##############")
+	fetchTop()
+
+	fmt.Println("############## ex 1.12 ##############")
+	lissajousServer()
 }
